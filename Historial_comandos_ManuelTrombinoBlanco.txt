@@ -1,0 +1,60 @@
+ssh-ketgen -t ed25519
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:manutb97/TP_AySO.git
+sudo dnf install git -y
+git --version
+git clone git@github.com:manutb97/TP_AySO.git
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+git config --global user.email "manutb97@gmail.com
+
+
+
+
+
+[200~> git
+git config --global user.name "manutb97
+git config --global user.email "manutb97@gmail.com"
+git config --global user.name "manutb97"
+whoami
+echo "Usuario=$(whoami)"
+cat datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+cat /proc/cpuinfo | grep -i "model name"
+cat /proc/cpuinfo | grep -i "model name" >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "UPDATE: agregada informacion de CPU a datos_usuarios.txt"
+git push
+echo "Usuario"=$(whoami)" > datos_usuario.txt
+"
+echo "Usuario=$(whoami)" > datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat << EOF > README.md
+Alumno: Manuel Trombino Blanco
+División: 313
+Turno: Noche
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
